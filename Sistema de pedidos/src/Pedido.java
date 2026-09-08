@@ -6,7 +6,7 @@ public class Pedido {
     private Entrega modalidadeEntrega;
 
     public Pedido(int numero, String cliente, double valorProdutos, double pesoTotal, Entrega modalidadeEntrega) {
-        setCliente(cliente); // Executa a validação do nome
+        setCliente(cliente);
 
         if (valorProdutos <= 0) {
             throw new IllegalArgumentException("O valor dos produtos deve ser maior que zero.");
