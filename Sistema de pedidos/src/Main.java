@@ -41,7 +41,6 @@ public class Main {
                 int opcaoEntrega = Integer.parseInt(scanner.nextLine());
                 Entrega entrega = criarEntrega(opcaoEntrega);
 
-                // Cria o pedido e exibe o resumo com os valores informados
                 Pedido pedido = new Pedido(numero, cliente, valorProdutos, pesoTotal, entrega);
 
                 System.out.println("\n===RESUMO===");
