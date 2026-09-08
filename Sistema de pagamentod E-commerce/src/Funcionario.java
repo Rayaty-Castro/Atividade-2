@@ -21,7 +21,9 @@ public abstract class Funcionario {
             throw new IllegalArgumentException("O nome não pode ser vazio.");
         }
         this.nome = nome;
+    // O método trim() em Java remove os espaços em branco do início e do final de uma
     }
+
 
     public String getCpf() {
         return cpf;
